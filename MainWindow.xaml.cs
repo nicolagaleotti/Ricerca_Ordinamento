@@ -102,6 +102,7 @@ namespace Ricerca
             {
                 MessageBox.Show($"Il file {file} non contiene : {ricerca}");
             }
+
         }
     }
 }
