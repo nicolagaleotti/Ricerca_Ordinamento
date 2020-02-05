@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:Ricerca"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="641.826">
-    <Grid Background="#FFFF8B8B">
+    <Grid Background="#FFABFF8B">
         <TextBox VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="txtNome" HorizontalAlignment="Left" Height="31" Margin="204,58,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="264" FontSize="18"/>
         <Label Content="Inserisci il nome:" HorizontalAlignment="Left" Margin="53,58,0,0" VerticalAlignment="Top" Height="31" Width="146" FontSize="18"/>
-        <Button x:Name="btnInserisci" Content="INSERISCI" HorizontalAlignment="Left" Margin="488,58,0,0" VerticalAlignment="Top" Width="75" Height="31" Click="btnInserisci_Click"/>
+        <Button x:Name="btnInserisci" Content="INSERISCI" HorizontalAlignment="Left" Margin="488,58,0,0" VerticalAlignment="Top" Width="75" Height="31" Click="btnInserisci_Click" FontWeight="Bold"/>
         <TextBox Name="lblNomi" VerticalScrollBarVisibility="Auto" Text=""  HorizontalAlignment="Left" Margin="53,114,0,0" VerticalAlignment="Top" Width="299" Height="258" FontSize="20"/>
-        <Button x:Name="btnSalva" Content="SALVA SUL FILE" HorizontalAlignment="Left" Margin="373,137,0,0" VerticalAlignment="Top" Width="190" Height="63" Click="btnSalva_Click"/>
+        <Button x:Name="btnSalva" Content="SALVA SUL FILE" HorizontalAlignment="Left" Margin="373,137,0,0" VerticalAlignment="Top" Width="190" Height="63" Click="btnSalva_Click" FontWeight="Bold"/>
         <TextBox VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="txtRicerca" HorizontalAlignment="Left" Height="43" Margin="373,298,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" FontSize="18"/>
         <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="RICERCA:" HorizontalAlignment="Left" Margin="373,237,0,0" VerticalAlignment="Top" Width="190" Height="56" FontSize="24"/>
         <Button x:Name="btnRicerca" Content="" HorizontalAlignment="Left" Margin="513,298,0,0" VerticalAlignment="Top" Width="50" Height="43" Click="btnRicerca_Click"/>
